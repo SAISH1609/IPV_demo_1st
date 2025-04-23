@@ -1,0 +1,37 @@
+# Flutter dependencies
+
+name: attendance_system
+description: A face recognition based attendance system
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  provider: ^6.0.1
+  shared_preferences: ^2.0.8
+  camera: ^0.9.4+5
+  path_provider: ^2.0.8
+  path: ^1.8.0
+  image_picker: ^0.8.4+4
+  flutter_secure_storage: ^5.0.2
+  intl: ^0.17.0
+  #flutter_camera_ml_vision: ^2.0.0
+  google_ml_kit: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    # Add a fallback asset to avoid crashes if the directory is empty
+    - assets/images/default.png
