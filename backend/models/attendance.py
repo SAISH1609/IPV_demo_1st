@@ -9,4 +9,4 @@ class Attendance(db.Model):
     status = db.Column(db.String(20), default='present')  # present, late, absent
     location = db.Column(db.String(100), nullable=True)
     image_path = db.Column(db.String(255), nullable=True)  # Path to stored face image
-    confidence = db.Column(db.Float, nullable=True)  # Face recognition confidence score 
+    confidence = db.Column(db.Float, nullable=True)  # Face recognition confidence score

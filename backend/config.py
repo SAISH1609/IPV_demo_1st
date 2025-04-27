@@ -10,4 +10,4 @@ class Config:
     JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY', 'jwt-secret-key')
     UPLOAD_FOLDER = 'uploads'
     ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg'}
-    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file size 
+    MAX_CONTENT_LENGTH = 16 * 1024 * 1024  # 16MB max file size

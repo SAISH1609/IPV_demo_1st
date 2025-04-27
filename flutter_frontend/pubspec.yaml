@@ -34,4 +34,4 @@ flutter:
   assets:
     - assets/images/
     # Add a fallback asset to avoid crashes if the directory is empty
-    - assets/images/default.png
+    - assets/images/saish.jpg
